@@ -35,5 +35,9 @@ module.exports = {
       },
     },
   },
+  variant: {
+    width: ["responsive", "hover", "focus"],
+    extend: {},
+  },
   plugins: [],
 };
