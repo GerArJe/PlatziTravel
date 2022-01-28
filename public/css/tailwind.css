@@ -484,10 +484,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   bottom: 0px;
 }
 
-.z-50 {
-  z-index: 50;
-}
-
 .z-10 {
   z-index: 10;
 }
@@ -743,6 +739,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 0.5rem;
 }
 
+.pl-6 {
+  padding-left: 1.5rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
 .font-Montserrat {
   font-family: Montserrat, sans-serif;
 }
@@ -793,6 +797,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(204 45 74 / var(--tw-text-opacity));
 }
 
+.text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -806,11 +815,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-tertiary {
   --tw-text-opacity: 1;
   color: rgb(97 174 201 / var(--tw-text-opacity));
-}
-
-.text-gray-300 {
-  --tw-text-opacity: 1;
-  color: rgb(209 213 219 / var(--tw-text-opacity));
 }
 
 .text-gray-200 {
@@ -932,6 +936,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
+.dark .dark\:bg-gray-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+
+.dark .dark\:bg-gray-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+}
+
+.dark .dark\:bg-gray-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+}
+
+.dark .dark\:text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 @media (min-width: 1024px) {
   .lg\:ml-16 {
     margin-left: 4rem;
@@ -943,10 +967,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:hidden {
     display: none;
-  }
-
-  .lg\:h-96 {
-    height: 24rem;
   }
 
   .lg\:h-full {
@@ -1012,16 +1032,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-right: 3.5rem;
   }
 
-  .lg\:pt-20 {
-    padding-top: 5rem;
+  .lg\:pt-48 {
+    padding-top: 12rem;
   }
 
   .lg\:pb-6 {
     padding-bottom: 1.5rem;
-  }
-
-  .lg\:pt-48 {
-    padding-top: 12rem;
   }
 
   .lg\:text-lg {
